@@ -1,3 +1,8 @@
+import Legacy from "../src/assets/images/legacy-app-sq-01.png"
+import AiCard from "../src"
+import AICard from "../src/assets/images/ai-card.svg";
+import Wi from "../src/assets/images/wi.png"
+
 const logotext = "Jillian Kay";
 const meta = {
     title: "Jillian Kay",
@@ -5,18 +10,18 @@ const meta = {
 };
 
 const introdata = {
-    title: "I’m Jillian Kay",
+    title: "Hi, I’m Jillian Kay",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Glad you're here",
+        second: "I code and design software",
+        third: "and web and mobile apps",
     },
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
+    title: "a bit about my self",
     aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
 };
 const worktimeline = [{
@@ -73,17 +78,17 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img: Legacy,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
+        img: AIFigma,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: Wi,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
@@ -93,12 +98,12 @@ const dataportfolio = [{
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: AICard,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
+        img: AIFigma,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
