@@ -1,12 +1,13 @@
 import Legacy from "../src/assets/images/legacy-app-sq-01.png"
-import AiCard from "../src"
-import AICard from "../src/assets/images/ai-card.svg";
+import AICard from "../src/assets/images/AIfigmanew.png"
+import AIFigma from "../src/assets/images/ai-card.svg";
 import Wi from "../src/assets/images/wi.png"
+import UiChi from "../src/assets/images/Home.png"
 
 const logotext = "Jillian Kay";
 const meta = {
     title: "Jillian Kay",
-    description: "I’m Jillian Kay data scientist _ Full stack devloper,currently working in Berlin",
+    description: "I’m Jillian Kay designer and developer,currently working out of Colorado",
 };
 
 const introdata = {
@@ -16,13 +17,13 @@ const introdata = {
         second: "I code and design software",
         third: "and web and mobile apps",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "—a creative problem-solver with a passion for design, tech, and bringing bold ideas to life. I love turning complex challenges into clean, functional solutions. When I’m not deep in a project, you’ll find me exploring the rugged beauty of the American West, chasing inspiration, or working on my next artistic adventure. Innovation, grit, and a touch of curiosity keep me moving forward.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
     title: "a bit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "—a creative problem-solver with a passion for design, tech, and bringing bold ideas to life. I love turning complex challenges into clean, functional solutions. When I’m not deep in a project, you’ll find me exploring the rugged beauty of the American West, chasing inspiration, or working on my next artistic adventure. Innovation, grit, and a touch of curiosity keep me moving forward.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -88,61 +89,44 @@ const dataportfolio = [{
         link: "#",
     },
     {
+        img: UiChi,
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "#",
+    },
+    {
         img: Wi,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: AICard,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: AIFigma,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+];
+
+const dataproject = [{
+    img: Legacy,
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "/legacy",
+},
+{
+    img: AIFigma,
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#ai",
+},
+{
+    img: UiChi,
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#uchi",
+},
+{
+    img: Wi,
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#wonder",
+},
+
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
+    YOUR_EMAIL: "fitzmauricejillian@gmail.com",
+    YOUR_FONE: "(303)901-3230",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
@@ -161,6 +145,7 @@ export {
     meta,
     dataabout,
     dataportfolio,
+    dataproject,
     worktimeline,
     skills,
     services,
