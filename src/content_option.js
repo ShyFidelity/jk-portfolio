@@ -136,10 +136,8 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/ShyFidelity",
+    linkedin: "https://www.linkedin.com/in/jillianfitzmaurice100/",
 };
 export {
     meta,

@@ -3,6 +3,7 @@ import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { dataportfolio, dataproject, meta } from "../../content_option";
+import { Link } from "react-router-dom";
 
 export const Portfolio = () => {
   return (
@@ -31,8 +32,8 @@ export const Portfolio = () => {
                 <img src={data.img} alt="" />
                 <div className="content">
                   <p>{data.description}</p>
-                  <a href={project?.link || "#"}>view project</a>
-                </div>
+                  <Link to={project?.link || "#"}>view project</Link>
+                  </div>
               </div>
             );
           })}
