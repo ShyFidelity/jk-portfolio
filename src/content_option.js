@@ -102,6 +102,7 @@ const dataportfolio = [{
 ];
 
 const dataproject = [{
+    name: "Legacy",
     img: Legacy,
     description: "The wisdom of life consists in the elimination of non-essentials.",
     link: "/legacy",
@@ -109,17 +110,17 @@ const dataproject = [{
 {
     img: AIFigma,
     description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#ai",
+    link: "/ai",
 },
 {
     img: UiChi,
     description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#uchi",
+    link: "uchi",
 },
 {
     img: Wi,
     description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#wonder",
+    link: "/wonder",
 },
 
 ];
