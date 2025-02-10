@@ -106,18 +106,29 @@ const dataproject = [{
     img: Legacy,
     description: "The wisdom of life consists in the elimination of non-essentials.",
     link: "/legacy",
+    description: "Worked on Legacy App, an estate planning platform for lawyers and clients, where I built and implemented React components, designed new features as user needs came up. These new features replaced third-party software with in-house solutions. Also gave the UI/UX some love in Figma to keep things smooth and user-friendly and more brand identity.", 
+    prob1: "The client needed a way to manage their estate planning documents and clients in one place. Clients are often older and potentially less tech savy than an average user.",
+    sol2: "I researched similar products and found there was a gap in the market for this need. I used industry standards, was WCAG compliancy, and made sure the UI was easy to use for all users.",
+    prob2: "Create documents for export that need client signatures that dynamically pull data from the current Data Bank." ,
+    sol2: "I replaced a third party software and built a visual hierarchy that allows lawyers to pick specific documents for each user and export them for signature.",
 },
 {
+    name: "AI Tutor",
+
     img: AIFigma,
     description: "The wisdom of life consists in the elimination of non-essentials.",
     link: "/ai",
 },
 {
+    name: "University of Chicago",
+
     img: UiChi,
     description: "The wisdom of life consists in the elimination of non-essentials.",
     link: "uchi",
 },
 {
+    name: "Wonder Ink",
+
     img: Wi,
     description: "The wisdom of life consists in the elimination of non-essentials.",
     link: "/wonder",
