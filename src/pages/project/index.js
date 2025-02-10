@@ -22,46 +22,42 @@ export const Project = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lg="5">
-            <h3 className="color_sec py-4">Project Description</h3>
-          </Col>
-          <Col lg="7" className="d-flex align-items-center">
-            <div>
-              <p>{dataproject[0]?.description || "Default Project"}</p>
-            </div>
-          </Col>
-          <Col lg="5">
-            <h3 className="color_sec py-4">Problem  / Solution</h3>
-          </Col>
-          <Col lg="7" className="d-flex align-items-center">
-            <div>
-              <p>ssss</p>
-            </div>
-          </Col>
-        </Row>
+  <Col lg="5">
+    <h3 className="color_sec py-4">Project Description</h3>
+  </Col>
+  <Col lg="7" className="d-flex align-items-center">
+    <div>
+      <p>{dataproject[0]?.description || "Default Project"}</p>
+    </div>
+  </Col>
+  <Col lg="5">
+    <h3 className="color_sec py-4">Problem / <span className="fw-semibold">Solution</span></h3>
+  </Col>
+  <Col lg="7">
+    <div className="mb-3">
+      <p>{dataproject[0]?.prob1 || "Default Project"}</p>
+      <p className="fw-semibold">{dataproject[0]?.sol1 || "Default Project"}</p>
+    </div>
+    <div>
+      <p>{dataproject[0]?.prob2 || "Default Project"}</p>
+      <p className="fw-semibold">{dataproject[0]?.sol2 || "Default Project"}</p>
+    </div>
+  </Col>
+</Row>
+
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Designs</h3>
+            <h2 className="color_sec py-4">1.</h2>
           </Col>
           <Col lg="7">
-            <table className="table caption-top">
-              <tbody>
-                {worktimeline.map((data, i) => {
-                  return (
-                    <tr key={i}>
-                      <th scope="row">dd</th>
-                      <td>ll</td>
-                      <td>dd</td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
+         <div>
+  <img src={dataproject[0]?.img1 || "Default Project"} alt="" className="po_img" />
+         </div>
           </Col>
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Skills</h3>
+            <h3 className="color_sec py-4">2.</h3>
           </Col>
           <Col lg="7">
             {skills.map((data, i) => {

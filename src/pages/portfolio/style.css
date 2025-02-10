@@ -85,3 +85,9 @@
 .po_item .content a:hover {
     text-decoration: none;
 }
+
+.po_img {
+    border-radius: 1rem;
+    width: 100%;
+    height: auto;
+}
