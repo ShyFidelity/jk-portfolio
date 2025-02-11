@@ -5,6 +5,7 @@ import Wi from "../src/assets/images/wi.png";
 import UiChi from "../src/assets/images/Home.png";
 import LegacyImg1 from "../src/assets/images/legacy-img1.png";
 
+import WiInkDash from  "../src/assets/images/Wi-Dash-Cal.png";
 const logotext = "Jillian Kay";
 const meta = {
   title: "Jillian Kay",
@@ -142,10 +143,10 @@ const dataproject = [
     description:
       "The wisdom of life consists in the elimination of non-essentials.",
     link: "/ai",
-    prob1:"Students of all ages are overwhelmed with the amount of content online they can use to study from.", 
+    prob1:"1. Students of all ages are overwhelmed with the amount of content online they can use to study from.", 
 sol1: "I created a platform that uses AI to generate study guides and quizzes based on the content the student is studying. This allows the student to focus on the content they need to know and not waste time on content they already know.", 
   prob2:
-    "I want to use AI to help students study on their own but not replace original content or get flagged for AI content.",
+    "2. I want to use AI to help students study on their own but not replace original content or get flagged for AI content.",
 sol2: "Our AI Tutor generates content but NEVER writes content for students. This allows the student to study on their own and not get flagged for using AI generated content.",
 
     prob3: "3. Students now are used to engaging video content and I wanted to make sure the platform was engaging for all ages.",  
@@ -155,19 +156,26 @@ sol2: "Our AI Tutor generates content but NEVER writes content for students. Thi
   
   {
     name: "University of Chicago",
-
     img: UiChi,
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+      "Worked with The Growth Academy an Economic research group at The University of Chicago. I helped them build a website that was more professional and helped them create a cohesive brand identity.",
     link: "uchi",
+    prob1: "The client needed a way to manage their estate planning documents and clients in one place. Clients are often older and potentially less tech savy than an average user.",
   },
   {
     name: "Wonder Ink",
 
     img: Wi,
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+      "WonderInk is a learning management system for leaders, parents, and students. I revamped the front-end interface to align with brand recognition, taking the lead in design decisions.",
     link: "/wonder",
+    prob1: "1. Youth leaders, who were often volunteers, wanted a way to easily plan lessons, track their students progress, and keep them engaged in the program all week.",
+    so1: "I created a drag and rop lesson calendar, and dashboard that allowed leaders to see what students were doing.",
+    prob2: "2. The client wanted a way to keep students engaged in the program all week. Having parents involved was key to this.",
+    sol2: "I designed a parent portal and games that were engaging for students and families.", 
+    prob3: "3. The app was unreconizable to the brand and needed a facelift.",
+    sol3: "I updated our app's color scheme and style that more on brand and engaging while still being keeping it professional for teachers and admin users.", 
+    img1: WiInkDash,
   },
 ];
 
