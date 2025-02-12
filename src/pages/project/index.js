@@ -46,6 +46,10 @@ export const Project = () => {
               <p>{project?.prob2 || "Default Project"}</p>
               <p className="fw-semibold">{project?.sol2 || "Default Project"}</p>
             </div>
+            <div>
+              <p>{project?.prob3 || "Default Project"}</p>
+              <p className="fw-semibold">{project?.sol3 || "Default Project"}</p>
+            </div>
           </Col>
         </Row>
         <Row className=" sec_sp">
@@ -56,6 +60,35 @@ export const Project = () => {
             <div>
               <img src={project?.img1 || "Default Project"} alt="" className="po_img" />
             </div>
+          </Col>
+        </Row>
+        <Row className=" sec_sp">
+          <Col lg="5">
+            <h2 className="color_sec py-4">2.</h2>
+          </Col>
+          <Col lg="7">
+            <div>
+              <img src={project?.img2 || "Default Project"} alt="" className="po_img" />
+            </div>
+
+            <div>
+              <img src={project?.img3 || "Default Project"} alt="" className="po_img" />
+            </div>
+
+            <div>
+              <img src={project?.img4 || "Default Project"} alt="" className="po_img" />
+            </div>
+          </Col>
+        </Row>
+        <Row className=" sec_sp">
+          <Col lg="5">
+            <h2 className="color_sec py-4">3.</h2>
+          </Col>
+          <Col lg="7">
+            <div>
+              <img src={project?.img5 || "Default Project"} alt="" className="po_img" />
+            </div>
+
           </Col>
         </Row>
       </Container>

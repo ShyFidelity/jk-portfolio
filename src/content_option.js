@@ -6,6 +6,11 @@ import UiChi from "../src/assets/images/Home.png";
 import LegacyImg1 from "../src/assets/images/legacy-img1.png";
 
 import WiInkDash from  "../src/assets/images/Wi-Dash-Cal.png";
+import WiPortal from "../src/assets/images/Wi-ParentPortal.png";
+import WiGames from "../src/assets/images/wi-games.png";
+import WiReskin from "../src/assets/images/wi-reskin.png";
+import WiBadges from "../src/assets/images/badges.png";
+
 const logotext = "Jillian Kay";
 const meta = {
   title: "Jillian Kay",
@@ -170,12 +175,16 @@ sol2: "Our AI Tutor generates content but NEVER writes content for students. Thi
       "WonderInk is a learning management system for leaders, parents, and students. I revamped the front-end interface to align with brand recognition, taking the lead in design decisions.",
     link: "/wonder",
     prob1: "1. Youth leaders, who were often volunteers, wanted a way to easily plan lessons, track their students progress, and keep them engaged in the program all week.",
-    so1: "I created a drag and rop lesson calendar, and dashboard that allowed leaders to see what students were doing.",
+    sol1:"I created a drag and drop lesson calendar, and dashboard that allowed leaders to see what students were doing.",
     prob2: "2. The client wanted a way to keep students engaged in the program all week. Having parents involved was key to this.",
     sol2: "I designed a parent portal and games that were engaging for students and families.", 
-    prob3: "3. The app was unreconizable to the brand and needed a facelift.",
+    prob3: "3. The app was unrecognizable to the brand and needed a facelift.",
     sol3: "I updated our app's color scheme and style that more on brand and engaging while still being keeping it professional for teachers and admin users.", 
     img1: WiInkDash,
+    img2: WiPortal, 
+    img3: WiGames,
+    img4: WiBadges,
+    img5: WiReskin,
   },
 ];
 
