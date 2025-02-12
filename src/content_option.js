@@ -11,6 +11,9 @@ import WiGames from "../src/assets/images/wi-games.png";
 import WiReskin from "../src/assets/images/wi-reskin.png";
 import WiBadges from "../src/assets/images/badges.png";
 
+
+import AIStartScreen from "../src/assets/images/ai-tutor-hi.gif";
+
 const logotext = "Jillian Kay";
 const meta = {
   title: "Jillian Kay",
@@ -149,14 +152,15 @@ const dataproject = [
       "The wisdom of life consists in the elimination of non-essentials.",
     link: "/ai",
     prob1:"1. Students of all ages are overwhelmed with the amount of content online they can use to study from.", 
-sol1: "I created a platform that uses AI to generate study guides and quizzes based on the content the student is studying. This allows the student to focus on the content they need to know and not waste time on content they already know.", 
+sol1: "I created a platform that generates study guides and quizzes relevant to the material the student is studying. This allows the student to focus on the material they are learning and not get overwhelmed with the amount of content online.", 
   prob2:
     "2. I want to use AI to help students study on their own but not replace original content or get flagged for AI content.",
 sol2: "Our AI Tutor generates content but NEVER writes content for students. This allows the student to study on their own and not get flagged for using AI generated content.",
 
     prob3: "3. Students now are used to engaging video content and I wanted to make sure the platform was engaging for all ages.",  
     sol3: "Using ChatGPT and another API I was able to integrate YouTube videos and other content to make the platform engaging for all ages. I also used a color scheme that was engaging and not intimidating for young users and not too childish for older students. In phase 2 of software would love to add themes or auto generate UI based on age upon sign up.",
-  img1: LegacyImg1,
+  img1: AIStartScreen,
+
   },
   
   {
