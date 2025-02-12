@@ -60,6 +60,12 @@ export const Project = () => {
             <div>
               <img src={project?.img1 || "Default Project"} alt="" className="po_img" />
             </div>
+            <div>
+              <img src={project?.img6 || "Default Project"} alt="" className="po_img" />
+            </div>
+            <div>
+              <img src={project?.img7 || "Default Project"} alt="" className="po_img" />
+            </div>
           </Col>
         </Row>
         <Row className=" sec_sp">

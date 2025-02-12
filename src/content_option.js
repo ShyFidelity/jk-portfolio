@@ -5,14 +5,17 @@ import Wi from "../src/assets/images/wi.png";
 import UiChi from "../src/assets/images/Home.png";
 import LegacyImg1 from "../src/assets/images/legacy-img1.png";
 
-import WiInkDash from  "../src/assets/images/Wi-Dash-Cal.png";
+import WiInkDash from "../src/assets/images/Wi-Dash-Cal.png";
 import WiPortal from "../src/assets/images/Wi-ParentPortal.png";
 import WiGames from "../src/assets/images/wi-games.png";
 import WiReskin from "../src/assets/images/wi-reskin.png";
 import WiBadges from "../src/assets/images/badges.png";
 
-
 import AIStartScreen from "../src/assets/images/ai-tutor-hi.gif";
+import AIYoutube from "../src/assets/images/ai-youtube.gif";
+import AiProductFeatures from "../src/assets/images/ai-tech.png";
+import AiPremium from "../src/assets/images/ai-premium.png";
+
 
 const logotext = "Jillian Kay";
 const meta = {
@@ -149,27 +152,32 @@ const dataproject = [
 
     img: AIFigma,
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+      "Product Overview: AI Tutor Website Our AI Tutor website offers an innovative, personalized learning experience tailored to individual student needs. Leveraging advanced artificial intelligence, the platform provides interactive tutor sessions, real-time feedback, adaptive learning paths and testing.",
     link: "/ai",
-    prob1:"1. Students of all ages are overwhelmed with the amount of content online they can use to study from.", 
-sol1: "I created a platform that generates study guides and quizzes relevant to the material the student is studying. This allows the student to focus on the material they are learning and not get overwhelmed with the amount of content online.", 
-  prob2:
-    "2. I want to use AI to help students study on their own but not replace original content or get flagged for AI content.",
-sol2: "Our AI Tutor generates content but NEVER writes content for students. This allows the student to study on their own and not get flagged for using AI generated content.",
+    prob1:
+      "1. Students of all ages are overwhelmed with the amount of content online they can use to study from.",
+    sol1: "I created a platform that generates study guides and quizzes relevant to the material the student is studying. This allows the student to focus on the material they are learning and not get overwhelmed with the amount of content online.",
+    prob2:
+      "2. I want to use AI to help students study on their own but not replace original content or get flagged for AI content.",
+    sol2: "Our AI Tutor generates content but NEVER writes content for students. This allows the student to study on their own and not get flagged for using AI generated content.",
 
-    prob3: "3. Students now are used to engaging video content and I wanted to make sure the platform was engaging for all ages.",  
+    prob3:
+      "3. Students now are used to engaging video content and I wanted to make sure the platform was engaging for all ages.",
     sol3: "Using ChatGPT and another API I was able to integrate YouTube videos and other content to make the platform engaging for all ages. I also used a color scheme that was engaging and not intimidating for young users and not too childish for older students. In phase 2 of software would love to add themes or auto generate UI based on age upon sign up.",
-  img1: AIStartScreen,
-
+    img1: AIStartScreen,
+    img3: AIYoutube,
+    img6: AiProductFeatures,
+    img7: AiPremium,
   },
-  
+
   {
     name: "University of Chicago",
     img: UiChi,
     description:
       "Worked with The Growth Academy an Economic research group at The University of Chicago. I helped them build a website that was more professional and helped them create a cohesive brand identity.",
-    link: "uchi",
-    prob1: "The client needed a way to manage their estate planning documents and clients in one place. Clients are often older and potentially less tech savy than an average user.",
+    link: "/uchi",
+    prob1:
+      "The client needed a way to manage their estate planning documents and clients in one place. Clients are often older and potentially less tech savy than an average user.",
   },
   {
     name: "Wonder Ink",
@@ -178,14 +186,16 @@ sol2: "Our AI Tutor generates content but NEVER writes content for students. Thi
     description:
       "WonderInk is a learning management system for leaders, parents, and students. I revamped the front-end interface to align with brand recognition, taking the lead in design decisions.",
     link: "/wonder",
-    prob1: "1. Youth leaders, who were often volunteers, wanted a way to easily plan lessons, track their students progress, and keep them engaged in the program all week.",
-    sol1:"I created a drag and drop lesson calendar, and dashboard that allowed leaders to see what students were doing.",
-    prob2: "2. The client wanted a way to keep students engaged in the program all week. Having parents involved was key to this.",
-    sol2: "I designed a parent portal and games that were engaging for students and families.", 
+    prob1:
+      "1. Youth leaders, who were often volunteers, wanted a way to easily plan lessons, track their students progress, and keep them engaged in the program all week.",
+    sol1: "I created a drag and drop lesson calendar, and dashboard that allowed leaders to see what students were doing.",
+    prob2:
+      "2. The client wanted a way to keep students engaged in the program all week. Having parents involved was key to this.",
+    sol2: "I designed a parent portal and games that were engaging for students and families.",
     prob3: "3. The app was unrecognizable to the brand and needed a facelift.",
-    sol3: "I updated our app's color scheme and style that more on brand and engaging while still being keeping it professional for teachers and admin users.", 
+    sol3: "I updated our app's color scheme and style that more on brand and engaging while still being keeping it professional for teachers and admin users.",
     img1: WiInkDash,
-    img2: WiPortal, 
+    img2: WiPortal,
     img3: WiGames,
     img4: WiBadges,
     img5: WiReskin,
