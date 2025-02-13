@@ -35,6 +35,17 @@ export const Project = () => {
             </div>
           </Col>
           <Col lg="5">
+            <h3 className="color_sec py-4">Link</h3>
+          </Col>
+          <Col lg="7" className="d-flex align-items-center">
+            <div>
+              <p>{project?.goTo || "Default Project"}</p>
+            </div>
+          </Col>
+          </Row>
+
+          <Row>
+          <Col lg="5">
             <h3 className="color_sec py-4">Problem / <span className="fw-semibold">Solution</span></h3>
           </Col>
           <Col lg="7">

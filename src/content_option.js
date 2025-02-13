@@ -16,7 +16,6 @@ import AIYoutube from "../src/assets/images/ai-youtube.gif";
 import AiProductFeatures from "../src/assets/images/ai-tech.png";
 import AiPremium from "../src/assets/images/ai-premium.png";
 
-
 const logotext = "Jillian Kay";
 const meta = {
   title: "Jillian Kay",
@@ -149,12 +148,13 @@ const dataproject = [
   },
   {
     name: "AI Tutor",
+    link: "/aitutor",
 
     img: AIFigma,
     description:
-      "Product Overview: AI Tutor Website Our AI Tutor website offers an innovative, personalized learning experience tailored to individual student needs. Leveraging advanced artificial intelligence, the platform provides interactive tutor sessions, real-time feedback, adaptive learning paths and testing.",
-    link: "/ai",
-    prob1:
+      "I co-created this AI Tutor platform alongside an engineer, transforming the way students engage with learning with AI. Designed to be both intuitive and adaptive, the platform uses AI to deliver interactive tutor sessions, real-time feedback, and personalized learning paths. Using AI as a tool for learning and not a replacement. From dynamic testing tools to seamlessly generated quizzes, every feature is built to enhance comprehension and retention. This project showcases my ability to blend UI design, user experience, and innovative problem-solving to create a smarter, more engaging educational tool.",
+   goTo: "https://aitutor-qa.softwarebbd.com/ test.user Password007",
+      prob1:
       "1. Students of all ages are overwhelmed with the amount of content online they can use to study from.",
     sol1: "I created a platform that generates study guides and quizzes relevant to the material the student is studying. This allows the student to focus on the material they are learning and not get overwhelmed with the amount of content online.",
     prob2:
@@ -206,10 +206,9 @@ const contactConfig = {
   YOUR_EMAIL: "fitzmauricejillian@gmail.com",
   YOUR_FONE: "(303)901-3230",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-  // creat an emailjs.com account
+"",   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-  YOUR_SERVICE_ID: "service_id",
+  YOUR_SERVICE_ID: "lUad2zC_XyZfP4qRY",
   YOUR_TEMPLATE_ID: "template_id",
   YOUR_USER_ID: "user_id",
 };
