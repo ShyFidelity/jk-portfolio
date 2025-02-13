@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/jk-portfolio/static/css/main.2e2d2540.css",
+    "main.js": "/jk-portfolio/static/js/main.dbf49f1a.js",
+    "static/media/ai-tutor-hi.gif": "/jk-portfolio/static/media/ai-tutor-hi.30b865e4fbd3cff8ba2c.gif",
+    "static/media/ai-youtube.gif": "/jk-portfolio/static/media/ai-youtube.5f9c9e4f5b21cd7fbfdb.gif",
+    "static/media/Wi-Dash-Cal.png": "/jk-portfolio/static/media/Wi-Dash-Cal.36befe365c398cf5d933.png",
+    "static/media/wi-reskin.png": "/jk-portfolio/static/media/wi-reskin.9bdb31ee0a9a11333a83.png",
+    "static/media/Wi-ParentPortal.png": "/jk-portfolio/static/media/Wi-ParentPortal.4c336e1b7f4c9674e7a3.png",
+    "static/media/ai-card.svg": "/jk-portfolio/static/media/ai-card.ec3a0d8608ac4e475b26c2687b8a2233.svg",
+    "static/media/wi-games.png": "/jk-portfolio/static/media/wi-games.b11512323e46cf1accbe.png",
+    "static/media/Home.png": "/jk-portfolio/static/media/Home.3cddcee44249f88b8591.png",
+    "static/media/badges.png": "/jk-portfolio/static/media/badges.12f228d52de5527a7f07.png",
+    "static/media/uchi-news.png": "/jk-portfolio/static/media/uchi-news.05737d9a29ef0488dbbf.png",
+    "static/media/AIfigmanew.png": "/jk-portfolio/static/media/AIfigmanew.daeb03403fd892311770.png",
+    "static/media/legacy-img1.png": "/jk-portfolio/static/media/legacy-img1.5d2a47fffe6ef3d2802f.png",
+    "static/media/legacy-app-sq-01.png": "/jk-portfolio/static/media/legacy-app-sq-01.e8bba92f693afa810100.png",
+    "static/media/dynamic-author.png": "/jk-portfolio/static/media/dynamic-author.5b109b8e5a64371f7fea.png",
+    "static/media/wi.png": "/jk-portfolio/static/media/wi.63d760bcfae2096ebd28.png",
+    "static/media/laptop-girl.jpeg": "/jk-portfolio/static/media/laptop-girl.51fb59bac2f211e640f3.jpeg",
+    "static/media/ai-premium.png": "/jk-portfolio/static/media/ai-premium.698f8f1a76cf8a97df7a.png",
+    "static/media/ai-tech.png": "/jk-portfolio/static/media/ai-tech.69f26fba6244dc05d58f.png",
+    "index.html": "/jk-portfolio/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.2e2d2540.css",
+    "static/js/main.dbf49f1a.js"
+  ]
+}
