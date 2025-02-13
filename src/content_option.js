@@ -3,7 +3,9 @@ import AICard from "../src/assets/images/AIfigmanew.png";
 import AIFigma from "../src/assets/images/ai-card.svg";
 import Wi from "../src/assets/images/wi.png";
 import UiChi from "../src/assets/images/Home.png";
+
 import LegacyImg1 from "../src/assets/images/legacy-img1.png";
+import DynamicAuthor from "../src/assets/images/dynamic-author.png";
 
 import WiInkDash from "../src/assets/images/Wi-Dash-Cal.png";
 import WiPortal from "../src/assets/images/Wi-ParentPortal.png";
@@ -15,6 +17,9 @@ import AIStartScreen from "../src/assets/images/ai-tutor-hi.gif";
 import AIYoutube from "../src/assets/images/ai-youtube.gif";
 import AiProductFeatures from "../src/assets/images/ai-tech.png";
 import AiPremium from "../src/assets/images/ai-premium.png";
+
+
+import UchiNews from "../src/assets/images/uchi-news.png";
 
 const logotext = "Jillian Kay";
 const meta = {
@@ -42,86 +47,89 @@ const dataabout = {
 };
 const worktimeline = [
   {
-    jobtitle: "Designer of week",
-    where: "YAdfi",
-    date: "2020",
+    jobtitle: "Freelance Designer",
+    where: "remote",
+    date: "2020 - 2025",
   },
   {
-    jobtitle: "Designer of week",
-    where: "Jamalya",
-    date: "2019",
+    jobtitle: "Legacy Architects",
+    where: "Denver",
+    date: "2024 - current",
   },
   {
-    jobtitle: "Designer of week",
-    where: "ALquds",
-    date: "2019",
+    jobtitle: "Software Built by Design",
+    where: "Remote",
+    date: "2022 - 2024",
   },
 ];
 
 const skills = [
   {
-    name: "Python",
-    value: 90,
+    name: "Art and Design",
+    value: 95,
   },
-  {
-    name: "Djano",
-    value: 85,
-  },
-  {
-    name: "Javascript",
-    value: 80,
-  },
+ 
   {
     name: "React",
-    value: 60,
+    value: 50,
   },
   {
-    name: "Jquery",
+    name: "Ui/Ux",
     value: 85,
   },
+  {
+    name: "Software Design",
+    value: 85,
+  },
+  {
+    name: "Mobile Design",
+    value: 75,
+  },
+
 ];
 
 const services = [
   {
     title: "UI & UX Design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+      "Creating intuitive and visually appealing interfaces with a strong focus on user experience, accessibility, and modern design principles.",
   },
   {
-    title: "Mobile Apps",
+    title: "Frontend Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+      "Building responsive and dynamic web applications using modern frameworks like React, ensuring seamless performance across all devices.",
   },
   {
-    title: "Wordpress Design",
+    title: "WordPress Design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+      "Revamping and customizing WordPress sites to enhance branding, functionality, and user engagement while maintaining ease of content management.",
   },
 ];
+
 
 const dataportfolio = [
   {
     img: Legacy,
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+      "Recent project using Figma to create designs for new project features and updating React components.",
     link: "#",
   },
   {
     img: AIFigma,
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: UiChi,
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+      "I co-created this AI Tutor platform alongside an engineer, transforming the way students engage with learning with AI.",
     link: "#",
   },
   {
     img: Wi,
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+      "Lead Designer on WonderInk a learning management system for leaders, parents, and students.",
+    link: "#",
+  },
+  {
+    img: UiChi,
+    description:
+      "Revamped The Growth Academy’s WordPress site, enhancing its professionalism and creating a more cohesive brand identity for this economic research group at The University of Chicago.",
     link: "#",
   },
 ];
@@ -131,7 +139,7 @@ const dataproject = [
     name: "Legacy",
     img: Legacy,
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+      "Recent project using Figma to create designs for new project features and updating React components. I also worked on the UI/UX of the app to make it more user-friendly and on-brand.",
     link: "/legacy",
     description:
       "Worked on Legacy App, an estate planning platform for lawyers and clients, where I built and implemented React components, designed new features as user needs came up. These new features replaced third-party software with in-house solutions. Also gave the UI/UX some love in Figma to keep things smooth and user-friendly and more brand identity.",
@@ -145,6 +153,7 @@ const dataproject = [
       "3. Our current Data Bank stored Will & Trust data in the same place and I needed it to be separate for the new feature.",
     sol3: "Using distinct on-brand colors and icons, I was able to separate the two and make it easy for the user to understand the difference. While not diverting too much from the current expierience I was able to implement a new UX for the new feature.",
     img1: LegacyImg1,
+    img2: DynamicAuthor,
   },
   {
     name: "AI Tutor",
@@ -153,8 +162,8 @@ const dataproject = [
     img: AIFigma,
     description:
       "I co-created this AI Tutor platform alongside an engineer, transforming the way students engage with learning with AI. Designed to be both intuitive and adaptive, the platform uses AI to deliver interactive tutor sessions, real-time feedback, and personalized learning paths. Using AI as a tool for learning and not a replacement. From dynamic testing tools to seamlessly generated quizzes, every feature is built to enhance comprehension and retention. This project showcases my ability to blend UI design, user experience, and innovative problem-solving to create a smarter, more engaging educational tool.",
-   goTo: "https://aitutor-qa.softwarebbd.com/ test.user Password007",
-      prob1:
+    goTo: "https://aitutor-qa.softwarebbd.com/ test.user Password007",
+    prob1:
       "1. Students of all ages are overwhelmed with the amount of content online they can use to study from.",
     sol1: "I created a platform that generates study guides and quizzes relevant to the material the student is studying. This allows the student to focus on the material they are learning and not get overwhelmed with the amount of content online.",
     prob2:
@@ -174,17 +183,23 @@ const dataproject = [
     name: "University of Chicago",
     img: UiChi,
     description:
-      "Worked with The Growth Academy an Economic research group at The University of Chicago. I helped them build a website that was more professional and helped them create a cohesive brand identity.",
+      "Revamped The Growth Academy’s WordPress site, transforming it into a more polished and professional platform that better reflects its mission as an economic research group at The University of Chicago. Improved site navigation, optimized layouts, and refined visual elements to create a cohesive brand identity, ensuring a stronger online presence and a more engaging user experience.",
     link: "/uchi",
-    prob1:
-      "The client needed a way to manage their estate planning documents and clients in one place. Clients are often older and potentially less tech savy than an average user.",
+    goTo: "https://growthcenter.uchicago.edu/growth-academy/",
+    prob1: "Outdated Website Design",
+    sol1: "Revamped the WordPress site with a modern, user-friendly layout, improving navigation, readability, and overall aesthetics to align with contemporary web standards.",
+    prob2: "Not WCAG Compliant",
+    sol2: "Implemented accessibility best practices, including proper contrast ratios, alt text for images, keyboard navigability, and semantic HTML to ensure compliance with WCAG guidelines and improve usability for all visitors.",
+    prob3: "Lack of Clear Branding & Unclear Professional Message",
+    sol3: "Developed a cohesive brand identity by refining the site's color palette, typography, and visual elements, while also ensuring content was structured and written in a way that clearly communicated The Growth Academy’s mission and expertise.",
+  img2: UiChi,
   },
   {
     name: "Wonder Ink",
 
     img: Wi,
     description:
-      "WonderInk is a learning management system for leaders, parents, and students. I revamped the front-end interface to align with brand recognition, taking the lead in design decisions.",
+      "I was the lead designer on WonderInk is a learning management system for leaders, parents, and students. I revamped the front-end interface to align with brand recognition, taking the lead in design decisions.",
     link: "/wonder",
     prob1:
       "1. Youth leaders, who were often volunteers, wanted a way to easily plan lessons, track their students progress, and keep them engaged in the program all week.",
@@ -205,8 +220,7 @@ const dataproject = [
 const contactConfig = {
   YOUR_EMAIL: "fitzmauricejillian@gmail.com",
   YOUR_FONE: "(303)901-3230",
-  description:
-"",   // creat an emailjs.com account
+  description: "", // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
   YOUR_SERVICE_ID: "lUad2zC_XyZfP4qRY",
   YOUR_TEMPLATE_ID: "template_id",
