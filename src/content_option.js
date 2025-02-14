@@ -6,6 +6,7 @@ import UiChi from "../src/assets/images/Home.png";
 
 import LegacyImg1 from "../src/assets/images/legacy-img1.png";
 import DynamicAuthor from "../src/assets/images/dynamic-author.png";
+import Trust from "../src/assets/images/trust.png";
 
 import WiInkDash from "../src/assets/images/Wi-Dash-Cal.png";
 import WiPortal from "../src/assets/images/Wi-ParentPortal.png";
@@ -22,6 +23,9 @@ import AiPremium from "../src/assets/images/ai-premium.png";
 import UchiNews from "../src/assets/images/uchi-news.png";
 import Growth1 from "../src/assets/images/growth-1.png";
 import UchiInsight from "../src/assets/images/uchi-insight.png";
+
+import BoltstackBg from "../src/assets/images/boltstack-bg-new.png";
+import Bs4 from "../src/assets/images/bs-4.png";
 
 
 const logotext = "Jillian Kay";
@@ -109,7 +113,6 @@ const services = [
   },
 ];
 
-
 const dataportfolio = [
   {
     img: Legacy,
@@ -121,6 +124,12 @@ const dataportfolio = [
     img: AIFigma,
     description:
       "I co-created this AI Tutor platform alongside an engineer, transforming the way students engage with learning with AI.",
+    link: "#",
+  },
+  {
+    img: BoltstackBg,
+    description:
+      "Lead Designer and Developer of marketing site as well as brand identity.",
     link: "#",
   },
   {
@@ -157,6 +166,8 @@ const dataproject = [
     sol3: "Using distinct on-brand colors and icons, I was able to separate the two and make it easy for the user to understand the difference. While not diverting too much from the current expierience I was able to implement a new UX for the new feature.",
     img1: LegacyImg1,
     img2: DynamicAuthor,
+    img5: Trust,
+
   },
   {
     name: "AI Tutor",
@@ -181,6 +192,51 @@ const dataproject = [
     img6: AiProductFeatures,
     img7: AiPremium,
   },
+  {
+    name: "AI Tutor",
+    link: "/aitutor",
+
+    img: AIFigma,
+    description:
+      "I co-created this AI Tutor platform alongside an engineer, transforming the way students engage with learning with AI. Designed to be both intuitive and adaptive, the platform uses AI to deliver interactive tutor sessions, real-time feedback, and personalized learning paths. Using AI as a tool for learning and not a replacement. From dynamic testing tools to seamlessly generated quizzes, every feature is built to enhance comprehension and retention. This project showcases my ability to blend UI design, user experience, and innovative problem-solving to create a smarter, more engaging educational tool.",
+    goTo: "https://aitutor-qa.softwarebbd.com/ test.user Password007",
+    prob1:
+      "1. Students of all ages are overwhelmed with the amount of content online they can use to study from.",
+    sol1: "I created a platform that generates study guides and quizzes relevant to the material the student is studying. This allows the student to focus on the material they are learning and not get overwhelmed with the amount of content online.",
+    prob2:
+      "2. I want to use AI to help students study on their own but not replace original content or get flagged for AI content.",
+    sol2: "Our AI Tutor generates content but NEVER writes content for students. This allows the student to study on their own and not get flagged for using AI generated content.",
+
+    prob3:
+      "3. Students now are used to engaging video content and I wanted to make sure the platform was engaging for all ages.",
+    sol3: "Using ChatGPT and another API I was able to integrate YouTube videos and other content to make the platform engaging for all ages. I also used a color scheme that was engaging and not intimidating for young users and not too childish for older students. In phase 2 of software would love to add themes or auto generate UI based on age upon sign up.",
+  
+  },
+  {
+    name: "Boltstack",
+    link: "/boltstack",
+
+    img: BoltstackBg,
+    description:
+      "I led the design and development of Boltstack’s promo website, crafting the branding, logo, and overall brand aesthetic to establish a strong visual identity. Boltstack is a no-code logic software with an intuitive drag-and-drop UI, designed to empower users to build workflows without needing to write a single line of code. Beyond the website, I played a key role in beta testing the product, ensuring usability, refining interactions, and providing feedback on the core logic-building experience. This project showcases my ability to merge branding, UI/UX design, and frontend development to create a cohesive and engaging platform presentation.",
+    goTo: "https://boltstack.com/",
+
+    prob1:
+      "1. Boltstack needed a distinct and professional brand identity that stood out in the no-code space.",
+    sol1: "I created a cohesive brand identity, including the logo, color palette, and UI aesthetic, ensuring Boltstack was visually compelling and aligned with its mission of simplifying logic building.",
+    
+    prob2:
+      "2. The platform required an intuitive way to communicate its value and functionality to potential users.",
+    sol2: "I designed and built the promo website to clearly showcase Boltstack’s features, making it easy for visitors to understand its capabilities and use cases at a glance.",
+    
+    prob3:
+      "3. As a new no-code tool, Boltstack needed thorough testing to refine the user experience before launch and user guides after launch. ",
+    sol3: "I actively participated in beta testing, identifying UX friction points, refining UI interactions, and ensuring the drag-and-drop logic builder was smooth and user-friendly. After launch, I created user guides and tutorials to help new users get started with the platform.",
+    img1: BoltstackBg,
+    img2: BoltstackBg,
+    img4: Bs4, 
+},
+
 
   {
     name: "University of Chicago",
@@ -201,7 +257,6 @@ img1: Growth1,
   },
   {
     name: "Wonder Ink",
-
     img: Wi,
     description:
       "I was the lead designer on WonderInk is a learning management system for leaders, parents, and students. I revamped the front-end interface to align with brand recognition, taking the lead in design decisions.",
