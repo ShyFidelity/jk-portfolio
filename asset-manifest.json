@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/jk-portfolio/static/css/main.2e2d2540.css",
-    "main.js": "/jk-portfolio/static/js/main.dbf49f1a.js",
+    "main.css": "/jk-portfolio/static/css/main.e050d80a.css",
+    "main.js": "/jk-portfolio/static/js/main.58a94840.js",
     "static/media/ai-tutor-hi.gif": "/jk-portfolio/static/media/ai-tutor-hi.30b865e4fbd3cff8ba2c.gif",
     "static/media/ai-youtube.gif": "/jk-portfolio/static/media/ai-youtube.5f9c9e4f5b21cd7fbfdb.gif",
     "static/media/Wi-Dash-Cal.png": "/jk-portfolio/static/media/Wi-Dash-Cal.36befe365c398cf5d933.png",
+    "static/media/growth-1.png": "/jk-portfolio/static/media/growth-1.1da416dd8cceae3fac52.png",
     "static/media/wi-reskin.png": "/jk-portfolio/static/media/wi-reskin.9bdb31ee0a9a11333a83.png",
     "static/media/Wi-ParentPortal.png": "/jk-portfolio/static/media/Wi-ParentPortal.4c336e1b7f4c9674e7a3.png",
     "static/media/ai-card.svg": "/jk-portfolio/static/media/ai-card.ec3a0d8608ac4e475b26c2687b8a2233.svg",
     "static/media/wi-games.png": "/jk-portfolio/static/media/wi-games.b11512323e46cf1accbe.png",
+    "static/media/uchi-insight.png": "/jk-portfolio/static/media/uchi-insight.e429f87b0dbee5ea18bb.png",
     "static/media/Home.png": "/jk-portfolio/static/media/Home.3cddcee44249f88b8591.png",
     "static/media/badges.png": "/jk-portfolio/static/media/badges.12f228d52de5527a7f07.png",
     "static/media/uchi-news.png": "/jk-portfolio/static/media/uchi-news.05737d9a29ef0488dbbf.png",
@@ -23,7 +25,7 @@
     "index.html": "/jk-portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.2e2d2540.css",
-    "static/js/main.dbf49f1a.js"
+    "static/css/main.e050d80a.css",
+    "static/js/main.58a94840.js"
   ]
 }
