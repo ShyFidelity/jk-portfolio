@@ -21,7 +21,8 @@ import AiPremium from "../src/assets/images/ai-premium.png";
 
 import UchiNews from "../src/assets/images/uchi-news.png";
 import Growth1 from "../src/assets/images/growth-1.png";
-import UchiGif from "../src/assets/images/uchi-screen.gif";
+import UchiInsight from "../src/assets/images/uchi-insight.png";
+
 
 const logotext = "Jillian Kay";
 const meta = {
@@ -194,9 +195,9 @@ const dataproject = [
     sol2: "Implemented accessibility best practices, including proper contrast ratios, alt text for images, keyboard navigability, and semantic HTML to ensure compliance with WCAG guidelines and improve usability for all visitors.",
     prob3: "Lack of Clear Branding & Unclear Professional Message",
     sol3: "Developed a cohesive brand identity by refining the site's color palette, typography, and visual elements, while also ensuring content was structured and written in a way that clearly communicated The Growth Academy’s mission and expertise.",
-img1: UchiGif,  
-    img2: Growth1,
-    img3: UchiNews,
+img1: Growth1,  
+    img2: UchiInsight,
+    img5: UchiNews,
   },
   {
     name: "Wonder Ink",
