@@ -1,6 +1,6 @@
 import Legacy from "../src/assets/images/legacy-app-sq-01.png";
 import AICard from "../src/assets/images/AIfigmanew.png";
-import AIFigma from "../src/assets/images/ai-card.svg";
+import AIFigma from "../src/assets/images/ai-tutor-card.png";
 import Wi from "../src/assets/images/wi.png";
 import UiChi from "../src/assets/images/Home.png";
 
