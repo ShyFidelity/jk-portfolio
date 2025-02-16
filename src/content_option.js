@@ -28,7 +28,8 @@ import UchiInsight from "../src/assets/images/uchi-insight.png";
 
 import BoltstackBg from "../src/assets/images/boltstack-bg-new.png";
 import Bs4 from "../src/assets/images/bs-4.png";
-
+import BSLogic from "../src/assets/images/bs-logic.gif";
+import BSMobile from "../src/assets/images/bs-mobile.gif";
 
 const logotext = "Jillian Kay";
 const meta = {
@@ -240,6 +241,8 @@ const dataproject = [
     img1: BoltstackBg,
     img2: BoltstackBg,
     img4: Bs4, 
+    img5: BSLogic,
+    img6: BSMobile,
 },
 
 
