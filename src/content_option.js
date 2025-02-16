@@ -18,7 +18,9 @@ import AIStartScreen from "../src/assets/images/ai-tutor-hi.gif";
 import AIYoutube from "../src/assets/images/ai-youtube.gif";
 import AiProductFeatures from "../src/assets/images/ai-tech.png";
 import AiPremium from "../src/assets/images/ai-premium.png";
-
+import AIMutli from "../src/assets/images/ai-multi.png";
+import AIWritten from "../src/assets/images/ai-written.png";
+import AITest from "../src/assets/images/ai-test.png";
 
 import UchiNews from "../src/assets/images/uchi-news.png";
 import Growth1 from "../src/assets/images/growth-1.png";
@@ -191,6 +193,9 @@ const dataproject = [
     img3: AIYoutube,
     img6: AiProductFeatures,
     img7: AiPremium,
+    img4: AIMutli,
+    img5: AIWritten,
+    img8: AITest,
   },
   {
     name: "AI Tutor",
