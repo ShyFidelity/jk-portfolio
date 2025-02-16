@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jk-portfolio/static/css/main.e050d80a.css",
-    "main.js": "/jk-portfolio/static/js/main.810e3b64.js",
+    "main.js": "/jk-portfolio/static/js/main.e7a60321.js",
     "static/media/ai-tutor-hi.gif": "/jk-portfolio/static/media/ai-tutor-hi.30b865e4fbd3cff8ba2c.gif",
     "static/media/ai-youtube.gif": "/jk-portfolio/static/media/ai-youtube.5f9c9e4f5b21cd7fbfdb.gif",
     "static/media/Wi-Dash-Cal.png": "/jk-portfolio/static/media/Wi-Dash-Cal.36befe365c398cf5d933.png",
@@ -14,7 +14,9 @@
     "static/media/badges.png": "/jk-portfolio/static/media/badges.12f228d52de5527a7f07.png",
     "static/media/uchi-news.png": "/jk-portfolio/static/media/uchi-news.05737d9a29ef0488dbbf.png",
     "static/media/AIfigmanew.png": "/jk-portfolio/static/media/AIfigmanew.daeb03403fd892311770.png",
+    "static/media/bs-mobile.gif": "/jk-portfolio/static/media/bs-mobile.705afe7632bc9eabc58b.gif",
     "static/media/trust.png": "/jk-portfolio/static/media/trust.fe2c3cac0e2838442dae.png",
+    "static/media/bs-logic.gif": "/jk-portfolio/static/media/bs-logic.a017aa2a0892d7290829.gif",
     "static/media/legacy-img1.png": "/jk-portfolio/static/media/legacy-img1.5d2a47fffe6ef3d2802f.png",
     "static/media/legacy-app-sq-01.png": "/jk-portfolio/static/media/legacy-app-sq-01.e8bba92f693afa810100.png",
     "static/media/bs-4.png": "/jk-portfolio/static/media/bs-4.d4b266fd1f964658c408.png",
@@ -23,12 +25,15 @@
     "static/media/wi.png": "/jk-portfolio/static/media/wi.63d760bcfae2096ebd28.png",
     "static/media/ai-tutor-card.png": "/jk-portfolio/static/media/ai-tutor-card.c736ed2fc5884291be0a.png",
     "static/media/laptop-girl.jpeg": "/jk-portfolio/static/media/laptop-girl.51fb59bac2f211e640f3.jpeg",
+    "static/media/ai-multi.png": "/jk-portfolio/static/media/ai-multi.fa88b58d21b90313f517.png",
     "static/media/ai-premium.png": "/jk-portfolio/static/media/ai-premium.698f8f1a76cf8a97df7a.png",
     "static/media/ai-tech.png": "/jk-portfolio/static/media/ai-tech.69f26fba6244dc05d58f.png",
+    "static/media/ai-written.png": "/jk-portfolio/static/media/ai-written.8b0615701e1ab24ee152.png",
+    "static/media/ai-test.png": "/jk-portfolio/static/media/ai-test.e06cdff5edad74f46d32.png",
     "index.html": "/jk-portfolio/index.html"
   },
   "entrypoints": [
     "static/css/main.e050d80a.css",
-    "static/js/main.810e3b64.js"
+    "static/js/main.e7a60321.js"
   ]
 }
