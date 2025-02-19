@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jk-portfolio/static/css/main.c07c2adf.css",
-    "main.js": "/jk-portfolio/static/js/main.347a5082.js",
+    "main.js": "/jk-portfolio/static/js/main.24a8f8b1.js",
     "static/media/ai-tutor-hi.gif": "/jk-portfolio/static/media/ai-tutor-hi.30b865e4fbd3cff8ba2c.gif",
     "static/media/ai-youtube.gif": "/jk-portfolio/static/media/ai-youtube.5f9c9e4f5b21cd7fbfdb.gif",
     "static/media/Wi-Dash-Cal.png": "/jk-portfolio/static/media/Wi-Dash-Cal.36befe365c398cf5d933.png",
@@ -36,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.c07c2adf.css",
-    "static/js/main.347a5082.js"
+    "static/js/main.24a8f8b1.js"
   ]
 }
