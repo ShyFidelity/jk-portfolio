@@ -7,6 +7,7 @@ import UiChi from "../src/assets/images/Home.png";
 import LegacyImg1 from "../src/assets/images/legacy-img1.png";
 import DynamicAuthor from "../src/assets/images/dynamic-author.png";
 import Trust from "../src/assets/images/trust.png";
+import LegacyOldNew from "../src/assets/images/legacy-old-new.png";
 
 import WiInkDash from "../src/assets/images/Wi-Dash-Cal.png";
 import WiPortal from "../src/assets/images/Wi-ParentPortal.png";
@@ -21,6 +22,7 @@ import AiPremium from "../src/assets/images/ai-premium.png";
 import AIMutli from "../src/assets/images/ai-multi.png";
 import AIWritten from "../src/assets/images/ai-written.png";
 import AITest from "../src/assets/images/ai-test.png";
+import AIComponents from "../src/assets/images/ai-components.png";
 
 import UchiNews from "../src/assets/images/uchi-news.png";
 import Growth1 from "../src/assets/images/growth-1.png";
@@ -153,8 +155,8 @@ const dataproject = [
   {
     name: "Legacy",
     img: Legacy,
-    description:
-      "Recent project using Figma to create designs for new project features and updating React components. I also worked on the UI/UX of the app to make it more user-friendly and on-brand.",
+    goTo:"https://www.figma.com/proto/369OzhMUnxL4gwjOdFPaYy/Legacy---Client-Side-(Jillian)?node-id=263-78698&t=p4WXU70B3OCw0myO-1", 
+    description: "Recent project using Figma to create designs for new project features and updating React components. I also worked on the UI/UX of the app to make it more user-friendly and on-brand.",
     link: "/legacy",
     description:
       "Worked on Legacy App, an estate planning platform for lawyers and clients, where I built and implemented React components, designed new features as user needs came up. These new features replaced third-party software with in-house solutions. Also gave the UI/UX some love in Figma to keep things smooth and user-friendly and more brand identity.",
@@ -170,6 +172,7 @@ const dataproject = [
     img1: LegacyImg1,
     img2: DynamicAuthor,
     img5: Trust,
+    img7: LegacyOldNew,
 
   },
   {
@@ -195,8 +198,9 @@ const dataproject = [
     img6: AiProductFeatures,
     img7: AiPremium,
     img4: AIMutli,
-    img5: AIWritten,
+    img2: AIWritten,
     img8: AITest,
+    img5: AIComponents,
   },
   {
     name: "AI Tutor",
@@ -221,7 +225,7 @@ const dataproject = [
   {
     name: "Boltstack",
     link: "/boltstack",
-
+    
     img: BoltstackBg,
     description:
       "I led the design and development of Boltstack’s promo website, crafting the branding, logo, and overall brand aesthetic to establish a strong visual identity. Boltstack is a no-code logic software with an intuitive drag-and-drop UI, designed to empower users to build workflows without needing to write a single line of code. Beyond the website, I played a key role in beta testing the product, ensuring usability, refining interactions, and providing feedback on the core logic-building experience. This project showcases my ability to merge branding, UI/UX design, and frontend development to create a cohesive and engaging platform presentation.",
