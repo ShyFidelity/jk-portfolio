@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jk-portfolio/static/css/main.2d5939d2.css",
-    "main.js": "/jk-portfolio/static/js/main.23b726c8.js",
+    "main.css": "/jk-portfolio/static/css/main.c07c2adf.css",
+    "main.js": "/jk-portfolio/static/js/main.347a5082.js",
     "static/media/ai-tutor-hi.gif": "/jk-portfolio/static/media/ai-tutor-hi.30b865e4fbd3cff8ba2c.gif",
     "static/media/ai-youtube.gif": "/jk-portfolio/static/media/ai-youtube.5f9c9e4f5b21cd7fbfdb.gif",
     "static/media/Wi-Dash-Cal.png": "/jk-portfolio/static/media/Wi-Dash-Cal.36befe365c398cf5d933.png",
@@ -16,6 +16,8 @@
     "static/media/AIfigmanew.png": "/jk-portfolio/static/media/AIfigmanew.daeb03403fd892311770.png",
     "static/media/bs-mobile.gif": "/jk-portfolio/static/media/bs-mobile.705afe7632bc9eabc58b.gif",
     "static/media/trust.png": "/jk-portfolio/static/media/trust.fe2c3cac0e2838442dae.png",
+    "static/media/legacy-old-new.png": "/jk-portfolio/static/media/legacy-old-new.e976459b71bd6596aa22.png",
+    "static/media/ai-components.png": "/jk-portfolio/static/media/ai-components.b288644d7757570157d0.png",
     "static/media/bs-logic.gif": "/jk-portfolio/static/media/bs-logic.a017aa2a0892d7290829.gif",
     "static/media/legacy-img1.png": "/jk-portfolio/static/media/legacy-img1.5d2a47fffe6ef3d2802f.png",
     "static/media/legacy-app-sq-01.png": "/jk-portfolio/static/media/legacy-app-sq-01.e8bba92f693afa810100.png",
@@ -33,7 +35,7 @@
     "index.html": "/jk-portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.2d5939d2.css",
-    "static/js/main.23b726c8.js"
+    "static/css/main.c07c2adf.css",
+    "static/js/main.347a5082.js"
   ]
 }
