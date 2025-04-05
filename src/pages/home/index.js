@@ -10,6 +10,7 @@ import CloudSolo from "../../assets/images/cloud-solo.png";
 import Star1 from "../../assets/images/star1.svg";
 import Saturn from "../../assets/images/saturn.png";
 import Star2 from "../../assets/images/star-2.svg";
+import Flower from "../../assets/images/flower.svg";
 
 export const Home = () => {
   return (
@@ -83,6 +84,14 @@ export const Home = () => {
                       className="bouncing-img floating-cloud cloud"
                     />
                   </div>
+                  <div className="intro_img">
+                    <img
+                      src={Flower}
+                      alt="star"
+                      className="wobble-spin-img flower"
+                    />
+                  </div>
+                  
                   <div className="floating-saturn">
                     <img
                       src={Saturn}

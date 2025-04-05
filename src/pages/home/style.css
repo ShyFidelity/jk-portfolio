@@ -300,7 +300,6 @@ section {
 
   .wobble-spin-img-2 {
     width: 100%;
-    max-width: 70px;
     animation: wobbleSpin2 5s ease-in-out infinite;
     display: block;
     margin: 0 auto;
@@ -330,6 +329,7 @@ section {
     top: 140px;
     left: 320px;
  z-index: 9999;
+ max-width: 70px;
 
   }
 
@@ -338,6 +338,7 @@ section {
     top: 240px;
     left: 80px;
  z-index: 9999;
+ max-width: 70px;
 
   }
 
@@ -370,3 +371,10 @@ section {
     }
   }
   
+  .flower {
+    position: absolute;
+    top: 250px;
+    right: 22%;
+    z-index: 9999;
+    min-width: 180px !important;
+  }
