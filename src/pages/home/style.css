@@ -373,7 +373,7 @@ section {
   
   .flower {
     position: absolute;
-    top: 250px;
+    top: 750px;
     right: 22%;
     z-index: 9999;
     min-width: 180px !important;
