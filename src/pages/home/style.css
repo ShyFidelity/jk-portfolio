@@ -257,7 +257,7 @@ section {
   }
 
   .cloud {
-    top: 520px;
+    top: 420px;
 
   }
   
@@ -300,7 +300,7 @@ section {
 
   .star-1 {
     position: absolute;
-    top: 440px;
+    top: 140px;
     left: 320px;
  z-index: 9999;
 
@@ -308,7 +308,7 @@ section {
 
 .floating-saturn {
     position: absolute;
-    top: 440px;
+    top: 340px;
     right: 320px;
     z-index: 9999;
     animation: float 3s ease-in-out infinite;
