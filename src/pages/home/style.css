@@ -34,7 +34,7 @@ section {
     height: calc(100vh - 60px);
     min-height: 700px;
     height: 100vh;
-    margin-top: 100px;
+    margin-top: 0px;
 }
 
 @media (max-width:991.98px) {
@@ -45,7 +45,7 @@ section {
 }
 
 .width80 {
-    width: 80%;
+    width: 70%;
     margin-left:auto;
     padding-right:40px;
    
@@ -88,8 +88,8 @@ section {
 }
 
 .intro_sec .text h1 {
-    font-size: 30px;
-    margin-bottom: 50px;
+    font-size: 22px;
+    margin-bottom: 20px;
     font-weight: 700;
 }
 
@@ -99,11 +99,12 @@ section {
 }
 
 .intro_sec .h_bg-image {
-    background-size: fit;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 700px;
     position: relative;
+    margin-top: -320px;
 }
 
 .ac_btn {
@@ -202,9 +203,10 @@ section {
 
 @media (max-width:991.98px) {
     .intro_sec .h_bg-image {
-        height: 600px;
+        height: 500px;
         min-height: 75vh;
         margin-bottom: 30px;
+        background-size: contain;
     
     }
     .intro_sec .h_bg-image .block {
@@ -241,3 +243,95 @@ section {
 .intro_sec .h_bg-image {
     filter: saturate(0.9);
 }
+
+
+
+.bouncing-img {
+    position: absolute;
+    left: 52%;
+    max-width: 250px;
+    animation: bounce 3s ease-in-out infinite;
+    display: block;
+    margin: 0 auto;
+    z-index: 99999;
+  }
+
+  .cloud {
+    top: 520px;
+
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .wobble-spin-img {
+    width: 100%;
+    max-width: 70px;
+    animation: wobbleSpin 4s ease-in-out infinite;
+    display: block;
+    margin: 0 auto;
+    transform-origin: center;
+  }
+  
+  @keyframes wobbleSpin {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    25% {
+      transform: rotate(90deg) scale(1.05);
+    }
+    50% {
+      transform: rotate(180deg) scale(0.98);
+    }
+    75% {
+      transform: rotate(270deg) scale(1.03);
+    }
+    100% {
+      transform: rotate(360deg) scale(1);
+    }
+  }
+  
+
+  .star-1 {
+    position: absolute;
+    top: 440px;
+    left: 320px;
+ z-index: 9999;
+
+  }
+
+.floating-saturn {
+    position: absolute;
+    top: 440px;
+    right: 320px;
+    z-index: 9999;
+    animation: float 3s ease-in-out infinite;
+}
+
+
+.tilt-img {
+
+    animation: tilt 4s ease-in-out infinite;
+    display: block;
+    margin: 0 auto;
+    transform-origin: center;
+  }
+  
+  @keyframes tilt {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(-10deg); /* Tilt left */
+    }
+    100% {
+      transform: rotate(5deg); /* Tilt right */
+    }
+  }
+  

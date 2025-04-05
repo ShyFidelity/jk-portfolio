@@ -27,6 +27,7 @@ import AIComponents from "../src/assets/images/ai-components.png";
 import UchiNews from "../src/assets/images/uchi-news.png";
 import Growth1 from "../src/assets/images/growth-1.png";
 import UchiInsight from "../src/assets/images/uchi-insight.png";
+import UchiGif from "../src/assets/images/April4-FINAL.gif";
 
 import BoltstackBg from "../src/assets/images/boltstack-bg-new.png";
 import Bs4 from "../src/assets/images/bs-4.png";
@@ -254,7 +255,7 @@ const dataproject = [
     name: "University of Chicago",
     img: UiChi,
     description:
-      "Revamped The Growth Academy’s WordPress site, transforming it into a more polished and professional platform that better reflects its mission as an economic research group at The University of Chicago. Improved site navigation, optimized layouts, and refined visual elements to create a cohesive brand identity, ensuring a stronger online presence and a more engaging user experience.",
+      "Revamped The Growth Academy’s WordPress site, transforming it into a more polished and professional platform that better reflects its mission as an economic research group at The University of Chicago. Created video headers and custom sit graphics, improved site navigation, optimized layouts, and refined visual elements to create a cohesive brand identity, ensuring a stronger online presence and a more engaging user experience.",
     link: "/uchi",
     goTo: "https://growthcenter.uchicago.edu/growth-academy/",
     prob1: "Outdated Website Design",
@@ -263,7 +264,7 @@ const dataproject = [
     sol2: "Implemented accessibility best practices, including proper contrast ratios, alt text for images, keyboard navigability, and semantic HTML to ensure compliance with WCAG guidelines and improve usability for all visitors.",
     prob3: "Lack of Clear Branding & Unclear Professional Message",
     sol3: "Developed a cohesive brand identity by refining the site's color palette, typography, and visual elements, while also ensuring content was structured and written in a way that clearly communicated The Growth Academy’s mission and expertise.",
-img1: Growth1,  
+img1: UchiGif,  
     img2: UchiInsight,
     img5: UchiNews,
   },
