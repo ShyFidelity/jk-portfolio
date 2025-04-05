@@ -298,10 +298,45 @@ section {
   }
   
 
+  .wobble-spin-img-2 {
+    width: 100%;
+    max-width: 70px;
+    animation: wobbleSpin2 5s ease-in-out infinite;
+    display: block;
+    margin: 0 auto;
+    transform-origin: center;
+  }
+  
+  @keyframes wobbleSpin2 {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    25% {
+      transform: rotate(90deg) scale(1.09);
+    }
+    50% {
+      transform: rotate(180deg) scale(0.88);
+    }
+    75% {
+      transform: rotate(70deg) scale(1.06);
+    }
+    100% {
+      transform: rotate(360deg) scale(1);
+    }
+  }
+
   .star-1 {
     position: absolute;
     top: 140px;
     left: 320px;
+ z-index: 9999;
+
+  }
+
+  .star-2 {
+    position: absolute;
+    top: 240px;
+    left: 80px;
  z-index: 9999;
 
   }

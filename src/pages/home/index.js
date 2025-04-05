@@ -9,6 +9,7 @@ import CloudsBG from "../../assets/images/new-long-cloud.png";
 import CloudSolo from "../../assets/images/cloud-solo.png";
 import Star1 from "../../assets/images/star1.svg";
 import Saturn from "../../assets/images/saturn.png";
+import Star2 from "../../assets/images/star-2.svg";
 
 export const Home = () => {
   return (
@@ -59,12 +60,23 @@ export const Home = () => {
                     </Link>
                   </div>
                 </div>
-                <div >
-                <div className="intro_img">
-  <img src={Star1} alt="star" className="wobble-spin-img star-1" />
-</div>
+                <div>
+                  <div className="intro_img">
+                    <img
+                      src={Star1}
+                      alt="star"
+                      className="wobble-spin-img star-1"
+                    />
+                  </div>
+                  <div className="intro_img">
+                    <img
+                      src={Star2}
+                      alt="star"
+                      className="wobble-spin-img-2 star-2"
+                    />
+                  </div>
 
-                  <div >
+                  <div>
                     <img
                       src={CloudSolo}
                       alt="cloud"
@@ -78,12 +90,12 @@ export const Home = () => {
                       className="bouncing-img tilt-img"
                     />
                   </div>
-           
-                <div
-                  className="h_bg-image order-1 order-lg-2 h-100 "
-                  style={{ backgroundImage: `url(${CloudsBG})` }}
-                ></div>
-     </div>
+
+                  <div
+                    className="h_bg-image order-1 order-lg-2 h-100 "
+                    style={{ backgroundImage: `url(${CloudsBG})` }}
+                  ></div>
+                </div>
                 {/* <h2 className="mb-1x"> Here is my current favorite project:</h2> */}
               </div>
             </div>
