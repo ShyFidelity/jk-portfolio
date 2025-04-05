@@ -1,11 +1,12 @@
 {
     "name": "react-portfolio",
-    "homepage": "https://shyfidelity.github.io/jk-portfolio/", 
+    "homepage": "https://shyfidelity.github.io/jk-portfolio/",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
         "bootstrap": "^5.2.3",
         "emailjs-com": "^3.2.0",
+        "motion": "^12.4.10",
         "react": "^18.2.0",
         "react-bootstrap": "^2.7.0",
         "react-dom": "^18.2.0",

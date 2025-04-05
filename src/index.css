@@ -54,11 +54,14 @@ h6 {
 a,
 a:hover {
     color: var(--text-color);
+    font-size: 1.4rem;
+
 }
 
 p {
     word-break: break-word;
     hyphens: auto;
+    font-size: 1.4rem;
 }
 
 .ovhidden {
