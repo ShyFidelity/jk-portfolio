@@ -5,6 +5,7 @@ import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 import LaptopGirl from "../../assets/images/laptop-girl.jpeg"
+import CloudsBG from "../../assets/images/web-cloud-bg.png"
 
 export const Home = () => {
   return (
@@ -16,13 +17,11 @@ export const Home = () => {
           <meta name="description" content={meta.description} />
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
-          <div
-            className="h_bg-image order-1 order-lg-2 h-100 "
-            style={{ backgroundImage: `url(${LaptopGirl})` }}
-          ></div>
+      
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
-            <div className="align-self-center ">
+            <div className="flex flex-col align-self-center ">
               <div className="intro mx-auto">
+                <div className="width80">
                 <h2 className="mb-1x">{introdata.title}</h2>
                 <h1 className="fluidz-48 mb-1x">
                   <Typewriter
@@ -56,7 +55,13 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                </div>
+                  </div>
+                  </div>
+                  <div
+            className="h_bg-image order-1 order-lg-2 h-100 "
+            style={{ backgroundImage: `url(${CloudsBG})` }}
+          ></div>
+              
               </div>
             </div>
           </div>

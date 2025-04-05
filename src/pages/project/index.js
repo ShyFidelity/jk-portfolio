@@ -118,29 +118,9 @@ export const Project = () => {
             <h2 className="color_sec py-4">2.</h2>
           </Col>
           <Col lg="7">
-            <div>
-              <img
-                src={project?.img2 || "Default Project"}
-                alt=""
-                className="po_img"
-              />
-            </div>
-
-            <div>
-              <img
-                src={project?.img3 || "Default Project"}
-                alt=""
-                className="po_img"
-              />
-            </div>
-
-            <div>
-              <img
-                src={project?.img4 || "Default Project"}
-                alt=""
-                className="po_img"
-              />
-            </div>
+          {renderImage(project?.img2)}
+            {renderImage(project?.img3)}
+            {renderImage(project?.img4)}
           </Col>
         </Row>
         <Row className=" sec_sp">
@@ -148,13 +128,8 @@ export const Project = () => {
             <h2 className="color_sec py-4">3.</h2>
           </Col>
           <Col lg="7">
-            <div>
-              <img
-                src={project?.img5 || "Default Project"}
-                alt=""
-                className="po_img"
-              />
-            </div>
+          {renderImage(project?.img5)}
+
           </Col>
         </Row>
 
