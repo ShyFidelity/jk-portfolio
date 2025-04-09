@@ -84,13 +84,13 @@ export const Home = () => {
                       className="bouncing-img floating-cloud cloud"
                     />
                   </div>
-                  <div className="intro_img">
+                  {/* <div className="intro_img">
                     <img
                       src={Flower}
                       alt="star"
                       className="wobble-spin-img flower"
                     />
-                  </div>
+                  </div> */}
                   
                   <div className="floating-saturn">
                     <img
