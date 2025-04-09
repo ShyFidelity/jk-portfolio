@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/jk-portfolio/static/css/main.c07c2adf.css",
-    "main.js": "/jk-portfolio/static/js/main.24a8f8b1.js",
+    "main.css": "/jk-portfolio/static/css/main.d1a284d8.css",
+    "main.js": "/jk-portfolio/static/js/main.a5701360.js",
+    "static/media/April4-FINAL.gif": "/jk-portfolio/static/media/April4-FINAL.3fa3a28589dd588878ed.gif",
     "static/media/ai-tutor-hi.gif": "/jk-portfolio/static/media/ai-tutor-hi.30b865e4fbd3cff8ba2c.gif",
     "static/media/ai-youtube.gif": "/jk-portfolio/static/media/ai-youtube.5f9c9e4f5b21cd7fbfdb.gif",
     "static/media/Wi-Dash-Cal.png": "/jk-portfolio/static/media/Wi-Dash-Cal.36befe365c398cf5d933.png",
+    "static/media/new-long-cloud.png": "/jk-portfolio/static/media/new-long-cloud.9cfa30f16d2cf63e7fcf.png",
     "static/media/growth-1.png": "/jk-portfolio/static/media/growth-1.1da416dd8cceae3fac52.png",
     "static/media/wi-reskin.png": "/jk-portfolio/static/media/wi-reskin.9bdb31ee0a9a11333a83.png",
     "static/media/Wi-ParentPortal.png": "/jk-portfolio/static/media/Wi-ParentPortal.4c336e1b7f4c9674e7a3.png",
@@ -26,16 +28,21 @@
     "static/media/boltstack-bg-new.png": "/jk-portfolio/static/media/boltstack-bg-new.4380f8ad8490f55ab9e1.png",
     "static/media/wi.png": "/jk-portfolio/static/media/wi.63d760bcfae2096ebd28.png",
     "static/media/ai-tutor-card.png": "/jk-portfolio/static/media/ai-tutor-card.c736ed2fc5884291be0a.png",
+    "static/media/saturn.png": "/jk-portfolio/static/media/saturn.78f455835039620c4570.png",
     "static/media/laptop-girl.jpeg": "/jk-portfolio/static/media/laptop-girl.51fb59bac2f211e640f3.jpeg",
     "static/media/ai-multi.png": "/jk-portfolio/static/media/ai-multi.fa88b58d21b90313f517.png",
     "static/media/ai-premium.png": "/jk-portfolio/static/media/ai-premium.698f8f1a76cf8a97df7a.png",
     "static/media/ai-tech.png": "/jk-portfolio/static/media/ai-tech.69f26fba6244dc05d58f.png",
     "static/media/ai-written.png": "/jk-portfolio/static/media/ai-written.8b0615701e1ab24ee152.png",
+    "static/media/cloud-solo.png": "/jk-portfolio/static/media/cloud-solo.aad2f6c2df2ea736fd92.png",
     "static/media/ai-test.png": "/jk-portfolio/static/media/ai-test.e06cdff5edad74f46d32.png",
+    "static/media/star-2.svg": "/jk-portfolio/static/media/star-2.e34d5d8a576bfaec55091d20d0fd0990.svg",
+    "static/media/flower.svg": "/jk-portfolio/static/media/flower.67ea8c8b5531cd94adef3196ad788d36.svg",
+    "static/media/star1.svg": "/jk-portfolio/static/media/star1.74a1f67d1ef1fd4e8ec82a7561fbf16c.svg",
     "index.html": "/jk-portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.c07c2adf.css",
-    "static/js/main.24a8f8b1.js"
+    "static/css/main.d1a284d8.css",
+    "static/js/main.a5701360.js"
   ]
 }
