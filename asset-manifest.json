@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jk-portfolio/static/css/main.d1a284d8.css",
-    "main.js": "/jk-portfolio/static/js/main.13e914e6.js",
+    "main.js": "/jk-portfolio/static/js/main.697f32fd.js",
     "static/media/April4-FINAL.gif": "/jk-portfolio/static/media/April4-FINAL.3fa3a28589dd588878ed.gif",
     "static/media/ai-tutor-hi.gif": "/jk-portfolio/static/media/ai-tutor-hi.30b865e4fbd3cff8ba2c.gif",
     "static/media/ai-youtube.gif": "/jk-portfolio/static/media/ai-youtube.5f9c9e4f5b21cd7fbfdb.gif",
@@ -43,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.d1a284d8.css",
-    "static/js/main.13e914e6.js"
+    "static/js/main.697f32fd.js"
   ]
 }
