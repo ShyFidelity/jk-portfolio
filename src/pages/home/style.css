@@ -37,6 +37,12 @@ section {
     margin-top: 0px;
 }
 
+@media (max-width:540px) {
+    .intro_sec {
+        display: none;
+    }
+}
+
 @media (max-width:991.98px) {
     .intro_sec {
         display: block;
@@ -256,11 +262,25 @@ section {
     z-index: 99999;
   }
 
+@media (max-width: 768px) {
+  .cloud {
+    display: none;
+  }
+}
+
+
   .cloud {
     top: 420px;
 
   }
   
+
+  @media (max-width: 588px) {
+  .cloud {
+    display: none;
+  }
+}
+
   @keyframes bounce {
     0%, 100% {
       transform: translateY(0);
@@ -348,6 +368,12 @@ section {
     right: 320px;
     z-index: 9999;
     animation: float 3s ease-in-out infinite;
+}
+
+@media (max-width:540px) {
+    .floating-saturn {
+        display: none;
+    }
 }
 
 
