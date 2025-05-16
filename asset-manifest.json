@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jk-portfolio/static/css/main.d1a284d8.css",
+    "main.css": "/jk-portfolio/static/css/main.e0810d64.css",
     "main.js": "/jk-portfolio/static/js/main.697f32fd.js",
     "static/media/April4-FINAL.gif": "/jk-portfolio/static/media/April4-FINAL.3fa3a28589dd588878ed.gif",
     "static/media/ai-tutor-hi.gif": "/jk-portfolio/static/media/ai-tutor-hi.30b865e4fbd3cff8ba2c.gif",
@@ -42,7 +42,7 @@
     "index.html": "/jk-portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.d1a284d8.css",
+    "static/css/main.e0810d64.css",
     "static/js/main.697f32fd.js"
   ]
 }
