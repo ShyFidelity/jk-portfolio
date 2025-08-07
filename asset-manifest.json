@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jk-portfolio/static/css/main.e0810d64.css",
-    "main.js": "/jk-portfolio/static/js/main.f2cd8d91.js",
+    "main.js": "/jk-portfolio/static/js/main.76c9e31c.js",
     "static/media/April4-FINAL.gif": "/jk-portfolio/static/media/April4-FINAL.3fa3a28589dd588878ed.gif",
     "static/media/ai-tutor-hi.gif": "/jk-portfolio/static/media/ai-tutor-hi.30b865e4fbd3cff8ba2c.gif",
     "static/media/ai-youtube.gif": "/jk-portfolio/static/media/ai-youtube.5f9c9e4f5b21cd7fbfdb.gif",
@@ -16,6 +16,7 @@
     "static/media/badges.png": "/jk-portfolio/static/media/badges.12f228d52de5527a7f07.png",
     "static/media/uchi-news.png": "/jk-portfolio/static/media/uchi-news.05737d9a29ef0488dbbf.png",
     "static/media/AIfigmanew.png": "/jk-portfolio/static/media/AIfigmanew.daeb03403fd892311770.png",
+    "static/media/legacy-ba.png": "/jk-portfolio/static/media/legacy-ba.b422f4d4688fa912b4b4.png",
     "static/media/bs-mobile.gif": "/jk-portfolio/static/media/bs-mobile.705afe7632bc9eabc58b.gif",
     "static/media/trust.png": "/jk-portfolio/static/media/trust.fe2c3cac0e2838442dae.png",
     "static/media/legacy-old-new.png": "/jk-portfolio/static/media/legacy-old-new.e976459b71bd6596aa22.png",
@@ -43,6 +44,6 @@
   },
   "entrypoints": [
     "static/css/main.e0810d64.css",
-    "static/js/main.f2cd8d91.js"
+    "static/js/main.76c9e31c.js"
   ]
 }
