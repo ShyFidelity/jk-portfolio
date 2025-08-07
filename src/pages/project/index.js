@@ -109,7 +109,7 @@ export const Project = () => {
         </Row>
 
 
-        <Row className=" sec_sp">
+        {/* <Row className=" sec_sp">
           <Col lg="5">
             <h2 className="color_sec py-4">1.</h2>
           </Col>
@@ -139,7 +139,7 @@ export const Project = () => {
           {renderImage(project?.img5)}
 
           </Col>
-        </Row>
+        </Row> */}
 
 
         {selectedImage && (

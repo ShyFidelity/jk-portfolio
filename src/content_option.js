@@ -8,6 +8,7 @@ import LegacyImg1 from "../src/assets/images/legacy-img1.png";
 import DynamicAuthor from "../src/assets/images/dynamic-author.png";
 import Trust from "../src/assets/images/trust.png";
 import LegacyOldNew from "../src/assets/images/legacy-old-new.png";
+import LegacyBA from "../src/assets/images/legacy-ba.png"
 
 import WiInkDash from "../src/assets/images/Wi-Dash-Cal.png";
 import WiPortal from "../src/assets/images/Wi-ParentPortal.png";
@@ -165,7 +166,7 @@ const dataproject = [
       "1. The client needed a way to manage their estate planning documents and clients in one place. Clients are often older and potentially less tech savy than an average user.",
     sol1: "I researched similar products and found there was a gap in the market for this need. I used industry standards, was WCAG compliancy, and made sure the UI was easy to use for all users.",
     prob2:
-      "2. Create documents for export that need client signatures that dynamically pull data from the current Data Bank.",
+      "2. Within a strict deadline created a UI solution to easily pull large amounts of client data to export to legal documents.",
     sol2: "I replaced a third party software and built a visual hierarchy that allows lawyers to pick specific documents for each user and export them for signature.",
     prob3:
       "3. Our current Data Bank stored Will & Trust data in the same place and I needed it to be separate for the new feature.",
@@ -173,6 +174,7 @@ const dataproject = [
     img1: LegacyImg1,
     img2: DynamicAuthor,
     img5: Trust,
+    img6: LegacyBA, 
     img7: LegacyOldNew,
 
   },
