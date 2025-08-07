@@ -84,18 +84,26 @@ export const Project = () => {
               <p className="fw-semibold">
                 {project?.sol1 || "Default Project"}
               </p>
+                      {renderImage(project?.img1)}
+                            {renderImage(project?.img6)}
+                          {renderImage(project?.img7)}
             </div>
             <div>
               <p>{project?.prob2 || "Default Project"}</p>
               <p className="fw-semibold">
                 {project?.sol2 || "Default Project"}
               </p>
+           {renderImage(project?.img2)}
+            {renderImage(project?.img3)}
+            {renderImage(project?.img4)}
             </div>
             <div>
               <p>{project?.prob3 || "Default Project"}</p>
               <p className="fw-semibold">
                 {project?.sol3 || "Default Project"}
               </p>
+                        {renderImage(project?.img5)}
+
             </div>
           </Col>
         </Row>
